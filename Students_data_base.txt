@@ -1,0 +1,15 @@
+create table Tudengid (
+id integer primary key,
+nimi text not null,
+vanus integer not null,
+aadress text not null
+);
+
+insert into Tudengid values(01, "Lilian", 28, "Tartu");
+insert into Tudengid values(12, "Josheph", 32, "Ida-Virumaa");
+insert into Tudengid values(23, "Alexandr", 45, "Parnu");
+insert into Tudengid values(34, "Arnolds", 27, "Riga");
+insert into Tudengid values(45, "Monica", 36, "Tallinn");
+insert into Tudengid values(56, "Sahadat", 40, "Saaremaa");
+
+select * from Tudengid
